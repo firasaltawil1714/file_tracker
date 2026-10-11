@@ -42,7 +42,7 @@ Built for managing batches of documents (for example, translation files) where y
 2. Run:
 
 ```bash
-python processor.py
+python file_tracker.py
 ```
 
 3. Check the summary in the terminal, the details in `processor.log`, and the statuses in `tracker.json`.
@@ -67,7 +67,7 @@ Example `tracker.json`:
 
 ```
 .
-├── processor.py
+├── file_tracker.py
 ├── tracker.json      # created automatically
 ├── processor.log     # created automatically
 ├── inbox/            # put new files here
@@ -79,6 +79,4 @@ Example `tracker.json`:
 `json`, `shutil`, `logging`, `pathlib` (all from the Python standard library)
 
 ## Author
-
-Firas, Arabic-English technical translator and Python automation learner.
 GitHub: https://github.com/firasaltawil1714
